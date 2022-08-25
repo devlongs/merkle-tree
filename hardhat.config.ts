@@ -12,9 +12,9 @@ module.exports = {
   solidity: "0.8.9",
   networks: {
     hardhat: {
-      forking: {
-        url: "",
-      },
+      // forking: {
+      //   url: "",
+      // },
     },
     goerli: {
       url: GOERLI_API_KEY_URL,
