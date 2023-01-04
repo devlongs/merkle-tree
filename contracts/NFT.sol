@@ -7,7 +7,7 @@ pragma solidity 0.8.9;
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
-// AN NFT where only Admin can mint to users
+// AN NFT where only admin can mint to users
 // The NFT has a max supply of 50
 contract GorrilaHead is ERC721URIStorage {
     constructor() ERC721("GorrilaHead", "GH"){}
